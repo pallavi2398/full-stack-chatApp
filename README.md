@@ -17,8 +17,7 @@ All components are deployed on a **local Kubernetes cluster (KIND)**, showing in
 
 A high-level view of the Kubernetes setup:
 
-yaml
-Copy code
+```text
       ┌──────────────┐
       │   Frontend   │
       │  React App   │
@@ -42,8 +41,7 @@ Copy code
       │ ClusterIP:   │
       │ 27017        │
       └──────────────┘
-yaml
-Copy code
+```
 
 **Explanation:**  
 
@@ -151,3 +149,4 @@ Deploy on cloud Kubernetes platforms (AWS, GCP, Azure)
 
 📜 License
 MIT License
+
